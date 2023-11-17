@@ -1,0 +1,11 @@
+GET http://localhost:4000
+
+###
+POST http://localhost:4000/send
+Content-Type: application/json
+
+{
+	"to": "victor@hola.com",
+	"subject": "Venta completa",
+	"message": "Hola, esto es una prueba de venta"
+}
